@@ -55,6 +55,45 @@
 
 若於使用過程中遇到介面異常或功能錯誤，歡迎於 GitHub Issues 提交說明與裝置型號資訊。
 
+## English Summary
+
+UK Workshop is an English learning tool built around British English and Traditional Chinese.
+
+Many learning apps still rely on drilling and rote memorisation of vocabulary. Self-directed learners below C1 who read widely or watch English video also meet too many unknown items, and looking words up on a phone is awkward. This tool combines a built-in dictionary with a user-configured AI model (via API) to offer a learning experience closer to native-speaker usage.
+
+**Reading support**
+- Tap a word to look it up from the built-in dictionary
+- Ask the AI directly about difficult words
+- Have long or complex sentences broken down and analysed
+
+**Intensive and blind listening for film and TV**
+- Built-in player with subtitle alignment, aimed at the common problem of understanding with subtitles but not without them
+- Subtitle timing calibration: a roughly five-second clip running from ambient sound into the first spoken line is captured, the AI detects where speech begins and records the playback position, and this is compared with the matching subtitle timestamp to fine-tune the offset. Only timing is adjusted; subtitle text is never rewritten
+
+**Writing and speaking**
+- Translating everyday dialogue to correct text that is grammatical but overly formal, unidiomatic or unclear, as well as Chinese-style logic and translationese
+- Scenario dialogues such as buying coffee, booking a hotel and responding to banter
+- Instead of comparing only against a reference answer, the AI compares the reference with the learner's answer and gives a rating and feedback
+
+**Features**
+- Highly customisable, with support for connecting your own AI model (API recommended)
+- No advertisements, a simple interface and non-exam-style questions
+- Built around British English and a Traditional Chinese environment
+
+**Planned updates**
+- Volume limit for the intensive listening module
+- A larger question bank
+
+**Installation**
+- Requires Android 8.0 or later, or open the front-end files in `src/` in a browser
+- Download an APK from the `release/` directory and install it directly
+
+**Known limitations**
+- Not a native Android app, so some devices are only moderately supported and memory use is relatively high
+- Occasional bugs may appear
+
+**Licence:** [MIT License](LICENSE). Made with the assistance of various AI models.
+
 ## 授權條款
 
 本專案採用 [MIT License](LICENSE) 開源授權，由多種 AI 模型輔助製作。
