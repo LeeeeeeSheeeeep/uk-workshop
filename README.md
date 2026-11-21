@@ -57,4 +57,4 @@
 
 ## 授權條款
 
-本專案採用 [MIT License](LICENSE) 開源授權，由 Google Gemini 系列模型輔助製作。
+本專案採用 [MIT License](LICENSE) 開源授權，由多種 AI 模型輔助製作。
